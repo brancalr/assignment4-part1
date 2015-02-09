@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Basic-PHP-Assignment
 ====================
 In this assignment you will create some basic PHP functions and generate some simple HTML using PHP.
@@ -64,3 +65,6 @@ You just need to fill in the Start: time. Use the same date format. I would sugg
 Have one entry per work session.
 
 Put this log in log.txt.
+=======
+# assignment4-part1
+>>>>>>> 4fe7563bf1b683897f1d1949f411897b5fd72442
