@@ -12,8 +12,8 @@ elseif ( $_SERVER['REQUEST_METHOD'] == 'GET' && !empty($_GET) ) {
 elseif ( $_SERVER['REQUEST_METHOD'] == 'POST' && empty($_POST) ) {
 	echo '{"Type": "Post", "parameters": null}';
 }
-elseif ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
-	echo '{"Type": "Post", "parameters": '. json_encode($_POST). '}';
+elseif ( $_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST) ) {
+	echo '{"Type": "Post", "parameters": '. json_encode(each($_POST)). '}';
 }
 
 ?>
