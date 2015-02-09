@@ -1,3 +1,7 @@
 Start: Fri, 6 Feb 2015 22:00:00 -0500
 End: Sat, 7 Feb 2015 01:48:49 -0500
 Tasks: completed multiplication table
+
+Start: Sun, 8 Feb 2015 22:00:00 -0500
+End: Mon, 9 Feb 2015 01:42:08 -0500
+Tasks: completed login.php, content1.php and content2.php
