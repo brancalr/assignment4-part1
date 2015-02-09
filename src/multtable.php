@@ -1,6 +1,6 @@
 <?php
 error_reporting(E_ALL);
-ini_set('display', 'On');
+ini_set('display', 1);
 
 if ($_GET["min-multiplicand"] > $_GET["max-multiplicand"])
 	echo 'Minimum multiplicand larger than maximum!<br>';
